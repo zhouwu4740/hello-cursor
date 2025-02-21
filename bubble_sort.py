@@ -10,10 +10,6 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
-# This function implements the bubble sort algorithm to sort an array in ascending order.
-# It repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.
-# The process is repeated until the list is sorted.
-
 
 def test_bubble_sort():
     test_cases_list = [
